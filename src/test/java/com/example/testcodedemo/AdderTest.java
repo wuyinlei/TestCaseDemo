@@ -49,16 +49,16 @@ public class AdderTest extends TestCase {
          * assertFalse和assertTrue 顾名思义就是分别验证真假，他只有一个boolean类型的参数，当参数和
          * assert后面的true或者false则表示通过，否则表示失败，
          */
-        assertFalse(false);
-        assertTrue(true);
+        //assertFalse(false);
+       // assertTrue(true);
 
         /**
          * 和上面的两个雷士，这assertNull和assertNotNUll也只有一个参数，不过这个参数是Object类型
          * 它用于对对象判空或者非空，例如，当assertNull（null），则测试失败，因为值为null，
          * 如果是assertNull（"hello"），那么测试通过
          */
-        assertNull(null);
-        assertNotNull(null);
+        //assertNull(null);
+        //assertNotNull(null);
 
         /**
          * assertSame与assertNotSame
@@ -66,8 +66,8 @@ public class AdderTest extends TestCase {
          * 对象，和assertEquals不同的是，assertSame强调的是两个对象为同一个对象，二assertEquals
          * 只需要两个对象相等即可，即调用equals函数时候返回true
          */
-        assertSame(null,null);
-        assertNotSame(null,null,null);
+       // assertSame(null,null);
+        //assertNotSame(null,null,null);
 
         /**
          * failNotEquals在api16以上使用，该函数有三个参数，第一个参数为失败的时候的提示信息
@@ -89,7 +89,7 @@ public class AdderTest extends TestCase {
          * fail(Sring)和fail（）
          * fail(String)直接抛出当前测试用例参数1中的错误信息，而fail则会给出默认的错误信息
          */
-        fail("hello");
-        
+        //fail("hello");
+
     }
 }
